@@ -1,7 +1,15 @@
-let myLeads = []
+let myLeads = `["www.financeego.com"]`
+
+myLeads = JSON.parse(myLeads)
+myLeads.push("www.examplelead.com")
+console.log(myLeads)
+
 const inputEl = document.getElementById("input-el")
 const btnClick = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el") 
+
+// localStorage.setItem("myLeads", "www.examplelead.com")
+// console.log(localStorage.getItem("myLeads"))
 
 btnClick.addEventListener("click" , function(){
     let valueEl = inputEl.value;
