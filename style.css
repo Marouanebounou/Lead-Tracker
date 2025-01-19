@@ -23,6 +23,10 @@ button {
     font-weight: bolder;
     background-color:#5f9341 ;
 }
+#delete-btn{
+    background-color: white;
+    color: #5f9341;
+}
 ul {
    list-style: none; 
    padding-left: 0%;
